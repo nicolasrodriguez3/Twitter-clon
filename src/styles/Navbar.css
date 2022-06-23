@@ -1,0 +1,45 @@
+.navbar-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 88px;
+	border-right: 1px solid #2f3336;
+	height: 100vh;
+	padding: 2px 1rem;
+}
+nav{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: .5rem;
+	margin-top: .2rem;
+}
+.nav-icons{
+	fill: #e7e9ea;
+	width: 50%;
+}
+.logo{
+	fill: #d6d9db;
+	width: 60%;
+}
+.icon-circle{
+	--width: 50px;
+	width: var(--width);
+	height: var(--width);
+	
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+}
+
+.icon-circle:hover{
+	background-color: #181818;
+}
+.icon-circle-logo:hover{
+	background-color: #031018;
+}
+.new-tweet-icon{
+	background-color: rgb(29, 155, 240);
+}
+.new-tweet-icon:hover{
+	background-color: #1a8cd8;
+}
